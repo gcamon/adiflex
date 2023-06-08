@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cognith-app",
-    "slug": "cognith-app",
+    "name": "adiflex-app",
+    "slug": "adiflex-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gcamon29.cognithapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gcamon29.cognithapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d9e24150-5f8d-4675-a4b3-105c898d6f96"
+      }
     }
   }
 }
